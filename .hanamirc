@@ -1,0 +1,3 @@
+project=school_planner
+test=rspec
+template=slim

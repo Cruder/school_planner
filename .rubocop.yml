@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - config/**/*
+    - db/migrate/**/*
+    - spec/*_helper.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - apps/**/application.rb
+    - spec/**/*
+
+Metrics/LineLength:
+  Exclude:
+    - apps/**/application.rb
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
